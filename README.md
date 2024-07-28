@@ -3,6 +3,14 @@
 
 ## 快速开始
 
-同步所有配置
-chmod +x quickly.sh
-./quickly.sh
+### linux
+```bash
+chmod +x quickly_linux.sh
+./quick_linux.sh
+```
+
+### windows
+```text
+双击运行 quickly_win.cmd
+```
+
