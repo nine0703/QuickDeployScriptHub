@@ -1,6 +1,0 @@
-include "/usr/share/nano/*.nanorc"
-#set nohelp # 帮助信息
-set tabsize 4 # 设置制表符宽度
-set autoindent # 允许自动缩进
-set linenumbers # 显示行号
-#set casesensitive # 搜索使用大小写敏感
