@@ -23,6 +23,6 @@ chmod +x quickly_linux.sh
 
 ```bash
 cd repos_source/apt/
-chmod +x install.sh
-./install.sh --help
+chmod +x aliyun_install.sh
+./aliyun_install.sh --help
 ```
