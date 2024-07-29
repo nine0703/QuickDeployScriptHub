@@ -1,10 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
   <meta charset="UTF-8">
-  <title>Title</title>
+  <title>快速部署的 Shell 项目介绍</title>
+  <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
 </head>
+
 <body>
-hello world!
+<div id="app">
+  <el-container style="height: 100vh; padding: 20px">
+    <el-header style="height: 60px; background-color: #409EFF">
+      <h1 style="color: white">快速部署的 Shell 项目</h1>
+    </el-header>
+    <el-main>
+      <h2>项目概述</h2>
+      <p>本项目提供了一种高效便捷的方式来快速部署您的应用环境，通过一系列精心编写的 Shell 脚本，简化了复杂的部署流程，节省了您的时间和精力。</p>
+      <h2>主要特点</h2>
+      <ul>
+        <li>自动化安装和配置所需的软件和依赖项。</li>
+        <li>快速初始化环境，确保一致性和稳定性。</li>
+        <li>易于定制和扩展，满足不同的项目需求。</li>
+      </ul>
+      <h2>使用步骤</h2>
+      <ol>
+        <li>下载项目脚本。</li>
+        <li>赋予脚本执行权限。</li>
+        <li>运行脚本，按照提示进行操作。</li>
+      </ol>
+    </el-main>
+    <el-footer style="height: 60px; background-color: #409EFF; color: white">
+      <p>版权所有 &copy; 2024 快速部署项目</p>
+    </el-footer>
+  </el-container>
+</div>
+
+<script src="https://unpkg.com/vue@2.6.14"></script>
+<script src="https://unpkg.com/element-ui/lib/index.js"></script>
+<script>
+  new Vue({
+    el: '#app'
+  })
+</script>
 </body>
+
 </html>
